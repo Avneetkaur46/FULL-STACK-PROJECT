@@ -1,0 +1,11 @@
+POST http://localhost:8082/api/books
+Content-Type: application/json
+
+{
+  "title": "Atomic Habits",
+  "author": "James Clear",
+  "category": "Self-help",
+  "isbn": "9780735211292",
+  "totalCopies": 5,
+  "availableCopies": 5
+}

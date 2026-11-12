@@ -1,0 +1,9 @@
+
+### Admin Login
+POST http://localhost:8082/api/auth/login
+Content-Type: application/json
+
+{
+  "email": "admin@librahub.com",
+  "password": "LibraHub_Admin_2026_Strong!"
+}
