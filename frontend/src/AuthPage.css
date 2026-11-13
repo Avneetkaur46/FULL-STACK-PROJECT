@@ -1,0 +1,134 @@
+
+.auth-page {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 24px;
+  background: #f3f5fa;
+  box-sizing: border-box;
+}
+
+.auth-card {
+  width: 100%;
+  max-width: 430px;
+  padding: 34px;
+  background: #ffffff;
+  border: 1px solid #e2e7f0;
+  border-radius: 18px;
+  box-shadow: 0 15px 45px rgba(30, 41, 59, 0.08);
+  box-sizing: border-box;
+}
+
+.auth-logo {
+  font-size: 38px;
+  text-align: center;
+}
+
+.auth-card h1,
+.auth-card h2,
+.auth-subtitle,
+.auth-description {
+  text-align: center;
+}
+
+.auth-card h1 {
+  margin: 8px 0 4px;
+  color: #172554;
+}
+
+.auth-subtitle,
+.auth-description {
+  color: #64748b;
+}
+
+.auth-tabs {
+  display: flex;
+  gap: 8px;
+  margin: 24px 0;
+  padding: 5px;
+  border-radius: 10px;
+  background: #f1f5f9;
+}
+
+.auth-tabs button {
+  flex: 1;
+  padding: 11px;
+  border: none;
+  border-radius: 7px;
+  cursor: pointer;
+  background: transparent;
+  color: #475569;
+}
+
+.auth-tabs button.selected {
+  color: #ffffff;
+  background: #263b80;
+}
+
+.auth-form {
+  display: grid;
+  gap: 16px;
+  margin-top: 22px;
+}
+
+.auth-form label {
+  display: grid;
+  gap: 7px;
+  color: #334155;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.auth-form input {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #cbd5e1;
+  border-radius: 8px;
+  box-sizing: border-box;
+  font: inherit;
+}
+
+.auth-form input:focus {
+  outline: 2px solid #a5b4fc;
+  border-color: #6366f1;
+}
+
+.auth-submit {
+  padding: 13px;
+  border: none;
+  border-radius: 8px;
+  background: #263b80;
+  color: #ffffff;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.auth-submit:disabled {
+  opacity: 0.6;
+  cursor: wait;
+}
+
+.auth-error {
+  padding: 10px;
+  border-radius: 7px;
+  background: #fef2f2;
+  color: #b91c1c;
+  font-size: 14px;
+  overflow-wrap: anywhere;
+}
+
+.auth-switch {
+  margin-top: 22px;
+  text-align: center;
+  color: #64748b;
+  font-size: 14px;
+}
+
+.auth-switch button {
+  border: none;
+  background: transparent;
+  color: #263b80;
+  font-weight: 600;
+  cursor: pointer;
+}
